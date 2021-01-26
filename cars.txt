@@ -4,6 +4,7 @@ id - PRIMARY_KEY - UNIQUE - AUTO_INCREMENT
 venditore - string - VARCHAR(30) - NOTNULL
 marca - string - VARCHAR(20) - NOTNULL
 modello - string - VARCHAR(70) - NOTNULL
+prezzo - int - INT - NOTNULL
 proprietari - int - AUTO_INCREMENT - NOTNULL - DEFAULT(1)
 anno di immatricolazione - int - YEAR(YYYY) - NOTNULL
 kilometri - int - INT - NOTNULL
