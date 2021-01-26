@@ -1,0 +1,22 @@
+Nome tabella: Automobili
+
+id - PRIMARY_KEY - UNIQUE - AUTO_INCREMENT
+venditore - string - VARCHAR(30) - NOTNULL
+marca - string - VARCHAR(20) - NOTNULL
+modello - string - VARCHAR(70) - NOTNULL
+proprietari - int - AUTO_INCREMENT - NOTNULL - DEFAULT(1)
+anno di immatricolazione - int - YEAR(YYYY) - NOTNULL
+kilometri - int - INT - NOTNULL
+alimentazione - string - VARCHAR(35) - NOTNULL
+cambio - string - VARCHAR(20) - NOTNULL
+marce - int - TINYINT - NOTNULL
+cilindrata  - int - SMALLINT - NOTNULL
+carrozzeria - string - VARCHAR(35) - NOTNULL
+peso - int - SMALLINT
+porte - int - TINYINT - NOTNULL
+posti a sedere - int - TINYINT
+sicurezza - string - TEXT - NOTNULL
+kilowatt - int - SMALLINT - NOTNULL
+accessori - string - TEXT
+finanziamento - boolean - TINYINT - NOTNULL
+emissioni - string - VARCHAR(15)
